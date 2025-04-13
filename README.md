@@ -31,3 +31,10 @@ Finally, after all the scripts were tested and working as intended I assigned th
 
 ![Screenshot 2025-04-12 210953](https://github.com/user-attachments/assets/9c2b5530-899a-4a7c-a5de-ccebba257271)
 
+- The Virtual Network and Windows VM was open for a week when these results were captured
+
+# Average Abuse Score by Country (AbuseIPDB API)
+
+![Screenshot 2025-04-13 004252](https://github.com/user-attachments/assets/7dd52686-bde8-403c-8a99-ee43e93a9518)
+
+- This shows the most known abuse IPs come from the countries highlighted in red
