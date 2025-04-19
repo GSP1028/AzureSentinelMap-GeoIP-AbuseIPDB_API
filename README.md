@@ -7,14 +7,15 @@ Azure Sentinel Honeypot home lab that grabs failed RDP logins (Event ID: 4625) f
 # Learning Experience:
 
 1. Basic Cloud Infrastructure and Virtualization
+   
 Learned the basics of how to setup cloud infrastructure elements and how to navigate through the Azure portal. Gained experience in configuring VMs inside of Azure, in this case Windows VM.
-2. Network Security Groups
+3. Network Security Groups
 Configured network secuirty groups to manage inbound and outbound rules for the virtual windows machine. Through this configuration I learned how to setup the honeypot Windows VM traffic rules and allow attackers to brute force RDP the VM. This showed me the importance of proper network configuration and attacker behaivor.
-3. Azure Sentinel Setup (SIEM)
+4. Azure Sentinel Setup (SIEM)
 Configured Azure Sentinel gaining knowledge into how SIEMs collect and analyze security logs and data. Setup the Log Analytics Workspace to ingest and analyze security data from the VM.
-4. Windows Security and Log Management
+5. Windows Security and Log Management
 Setup the collection of Windows security event logs through Azure AMA in the Log Analytics Workspace. Configured Microsoft Defender to allow for inbound traffic in order for the honeypot to work. Through this I learned the importance of Microsoft Defender configuration and how it increases the security posture of cloud and hybrid enviornments.
-5. Geolocation and Data Vizualation
+6. Geolocation and Data Vizualation
 Using a dataset in Sentinel Watchlist I learned how to integrate data for mapping of attcker IPs to longitude and latitude geolocation. Learned how Kusto Query Language can be used to visualize logs and how it can map attacker IPs on to a geo-map. Then saved the Query into a Sentinel  Workbook for ease of use. This taught me how to enrich log data to see geographic information, which is important for understanding the source of threats.
 
 # Extension
